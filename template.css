@@ -1,0 +1,104 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky
+{
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+#header
+{
+    background-color: lightsalmon;
+    padding: 5px;
+    padding-left: 100px;
+    text-align: left;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif; 
+    height: fit-content;
+}
+
+#header header
+{
+    font-size: 50px;
+    padding: inherit;   
+}
+
+#header sub
+{
+    padding: auto;
+}
+
+
+#topnav 
+{
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#topnav a 
+{
+    float: left;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 25%;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover 
+{
+    background-color:lightyellow;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+#topnav a.active 
+{
+    background-color: lightskyblue;
+    color: black;
+}
+
+#article
+{
+    float:left;
+    padding:20px;    
+    width:100%;
+    height: fit-content;
+    font-size: 18px;
+    text-align: left; 
+    background-color:lightseagreen;
+    top: auto;
+}
+
+#article::after
+{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+#footer 
+{
+    background-color: lightsalmon;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    max-height: fit-content;
+}

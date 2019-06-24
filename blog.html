@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-SG">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> CA2 Assignment - blog </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="template.css">
+        <script src="template.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <header> Engineering Exploration and Design <br> <sub> CA2 Assignment </sub> </header>
+        </div>
+        <div id="topnav" class="sticky">
+            <a href="homepage.html"> Home </a>
+            <a class="active" href="#home"> Blog </a>
+            <a href="References.html"> References </a>
+            <a href="#page 4"> About </a>
+        </div>
+        <div id="article">
+            <h1> TinkerCAD simulation </h1>
+            <p>
+                Before testing out the circuit on the breadboard, I first used a electronic
+                simulation website known as TinkerCAD to see wether my circuit works.
+                Before creating the actual circuit on the website, I first calibrate my virtual
+                LDR with the starter code provided by TinkerCAD. After that, I connected the
+                circuit together and it works.
+            </p>
+            <hr>
+            <h1> Breadboard testing </h1>
+            <p>
+                After trying out on TinkerCAD, I connected the circuit together on a breadboard.
+                <br><br>
+                I first get the LDR from fablab. Then, using the starter code found in TinkerCAD, I 
+                calibrated the LDR.
+                <br><br>
+                Then, I started to connect the actual circuit together.
+                At first the circuit does not really work on a breadboard. I slowly figure
+                out that the toggle switch used is not meant for breadboard. So, I decided to connect
+                a jumper wire directly from Vcc or GND depending on wether i want it to be 'on' or 'off'.
+                This time, the circuit works perfectly.
+                <br>
+                <br>
+                The image below shows my breadboard with the connected circuits that works
+                <br><br>
+                <img src="breadboard" alt="breadboard circuit connection" height="500 px", width="500px">
+                <br><br>
+                <hr>
+            </p>
+                <h1> Actual stripboard connection </h1>
+                <p> 
+                        After trying out the circuit on the breadboard, I decided to solder
+                        the circuit onto the stripboard. As my stripboard has no layout, I have
+                        to solder jumper wires to every node of the circuit. However, I still
+                        prefer to use a no-layout stripboard. This is because I do not need
+                        to break the layout of the stripboard. Although this is my second time
+                        soldering in my whole life and my first time soldering for a graded
+                        assignment, I am able to get the circuit working on my first attempt
+                        abliet with some desoldering here and there.
+
+                </p>
+                <br><br>
+                <p> 
+                    The image below shows the stripboard with the circuit soldered on     
+                </p>
+                <br><br>
+                <img src="stripboard" alt="stripboard with sircuit" width="500px" height="500px">
+                <br><br>
+                <p> 
+                    Link to demostration video: 
+                    <a href="www.youtube.com" > Demostration Video </a>
+                    <br>
+                    Source code: 
+                    <a href="source code"> Source code </a> 
+                </p>
+        </div>
+        <div id="footer">
+            <p> CA2 Assignment </p>
+        </div>
+    </body>
+</html>
